@@ -1,0 +1,300 @@
+.main{
+    display: flex;
+    text-align:center;
+    align-items: center;
+    background-color:rgb(48, 45, 45);
+    padding:5px 5px;
+    border: 1px solid grey;
+    width: 99%;
+    height: 100px;
+    
+  }
+  .image{
+width: 250px;
+padding: 5px;
+height: 200px;
+
+  }
+  .main a{
+    text-align: left;
+   padding: 15px;
+    text-decoration: none;
+    color: rgb(12, 122, 213);
+    margin-left: 40px;
+    
+  }
+  .main a:hover{
+    color: white;
+  }
+  .tata{
+    width: 150px;
+    padding-left: 100px;
+  }
+header{
+    background-image: url(photo-1552872673-9b7b99711ebb.avif);
+    background-size: auto;
+    height: 660px;
+    width: 100%;
+    object-fit: contain;
+    font-size: large;
+    background-size: cover;
+}
+header h1{
+    text-align: center;
+    color: rgb(12, 122, 213); 
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.card{
+    display: block;
+}
+.lamp{
+    display: block;
+}
+.cona{
+    display: block;
+}
+.maya{
+    display: block;
+}
+.veera{
+    display: block;
+}
+.para h1{
+    font-size: 80px;
+    text-align:start;
+}
+.para p{
+    color: grey;
+}
+.box{
+    border:00px;
+    width: 110px;
+    height: 130px;
+    padding: 80px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+.collaborate{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+   }
+   .kaisa{
+    display: block;
+   }
+.hola{
+    display: block;
+   
+}
+.lipa{
+    display: block;
+}
+.ben{
+    display: block;
+}
+.sid img{
+    margin-left: 100px;
+}
+.dhannu{
+    border:2px solid white;
+    width: 90px;
+    margin: 5px;
+    padding: 50px;
+    background-color: black;  
+margin-left: 500px;
+}
+.raman{
+    border:2px solid white;
+    width: 90px;
+    margin: 5px;
+    padding: 50px;
+    background-color: black;  
+}
+
+.rastogi{
+    border:2px solid white;
+    width: 90px;
+    margin: 5px;
+    padding: 50px;
+    background-color: black;   
+}
+.ashish{
+    border:2px solid white;
+    width: 90px;
+    margin: 5px;
+    padding: 50px;
+    background-color: black;   
+}
+.porush{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+ margin-top: -110px;
+}
+.girl img{
+    height: 600px;
+    width: 1050px;
+}
+.cycle{
+    border:2px solid white;
+    width: 800px;
+    margin: 90px 0  0  -300px;
+    padding: 50px;
+    background-color: black;  
+    height:350px;
+}
+.cycle p{
+    color:grey
+}
+.cycle h1{
+    color:red;
+}
+.boy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rahul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    margin-right: 85px;
+}
+.indus{
+    background-color: grey;
+}
+.maje{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.par{
+    margin-top: 90px;
+}
+.final{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:700px){
+    .image{
+        width: 100px;
+        padding: 5px;
+        height: 90px;
+        margin-left: -30px;
+          }
+          
+          .main a{
+            font-size: x-small;
+            text-align: left;
+        margin: 1px;
+            text-decoration: none;
+            color: rgb(12, 122, 213);
+            margin-right: 5px;
+          }
+        
+          .tata{
+            width: 100px;
+            padding-left: 15px;
+          }
+      .aaya{
+      width: 5px;
+        margin-top: 80px;
+       align-items: flex-start;
+       margin-left: -50px;
+      }
+      .container {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+ 
+    
+    }
+    .heading{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        font-size: large;
+     padding-left: 50px;
+    }
+    .box{
+        border:00px;
+        width: 90px;
+        height: 110px;
+        padding: 40px;
+        background-color: antiquewhite;
+        margin-top: 50px;
+    }
+    .collaborate{
+    
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;  
+       }
+    .pandit{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        margin-right: 70px;  
+    }
+    .sid img{
+        margin-left: 10px;
+        width: 650px;
+    }
+    .dhannu{
+        border:2px solid white;
+        width: 380px;
+        margin: 5px;
+        padding: 30px;
+        background-color: black;  
+    margin-left: 70px;
+    }
+    .raman{
+        border:2px solid white;
+        width: 80px;
+        margin: 5px;
+        padding: 30px;
+        background-color: black; 
+        display: none; 
+    }
+    
+    .rastogi{
+        border:2px solid white;
+        width: 280px;
+        margin: 5px;
+        padding: 30px;
+        background-color: black;  
+        display: none; 
+    }
+    .ashish{
+        border:2px solid white;
+        width: 80px;
+        margin: 5px;
+        padding: 30px;
+        background-color: black;   
+        display: none;
+    }
+    .porush{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+     margin-top: -110px;
+    }
+    .girl img{
+        height: 500px;
+        width: 600px;
+    }
+}
